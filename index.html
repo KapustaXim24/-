@@ -1,35 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"> 
-    <title>A-Frame Scene Test</title>
-    <meta name="description" content="Basic A-Frame scene up to section 3.5">
-    <!-- Підключаємо бібліотеку A-Frame через CDN -->
+    <meta charset="utf-8">
+    <title>A-Frame Scene Final Test</title>
+    <meta name="description" content="A-Frame scene based on guide up to 3.5">
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
 </head>
 <body>
     <a-scene>
-        <!-- Небо/фон -->
+        <!-- Фон -->
         <a-sky color="grey"></a-sky>
 
-        <!-- Зелений тор -->
+        <!-- Тор -->
         <a-torus position="-2 1 -5" color="green" radius="1.2"></a-torus>
 
-        <!-- Фіолетова площина -->
-        <a-plane width="7" height="7" rotation="-55 0 0"
-                 position="3 -2 -3" color="purple"></a-plane>
+        <!-- Площина (УВАГА НА rotation та position!) -->
+        <a-plane width="7" height="7" rotation="-55 0 0" position="3 -2 -3" color="purple"></a-plane>
 
-        <!-- Жовтий циліндр-"льодяник" -->
-        <a-cylinder color="yellow" height="2" radius="0.05"
-                    position="-2 -1 -5"></a-cylinder>
+        <!-- Жовтий циліндр -->
+        <a-cylinder color="yellow" height="2" radius="0.05" position="-2 -1 -5"></a-cylinder>
 
-        <!-- Синій циліндр-"льодяник" -->
-        <a-cylinder color="blue" height="2" radius="0.05"
-                    position="-3 -1 -5"></a-cylinder>
+        <!-- Синій циліндр -->
+        <a-cylinder color="blue" height="2" radius="0.05" position="-3 -1 -5"></a-cylinder>
 
-        <!-- !!! Текст замінено на англійську !!! -->
-        <a-text value="Welcome to vr!" color="black"
-                width="10" position="-0.5 1 -6" ></a-text>
+        <!-- Текст (Англійська версія для тесту) -->
+        <a-text value="Welcome to VR!" color="black" width="10" position="-0.5 1 -6"></a-text>
 
     </a-scene>
 </body>
