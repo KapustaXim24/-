@@ -12,25 +12,26 @@
         <a-sky color="grey"></a-sky>
         
         <!-- Зелений тор -->
-        <a-torus position="0 1.5 -5" color="green" radius="1.2" radius-tubular="0.2"></a-torus>
+        <a-torus position="0 1.5 -5" color="green" radius="1" radius-tubular="0.2"></a-torus>
         
-        <!-- Жовтий вузол (переплетені тори) -->
-        <a-torus-knot color="yellow" radius="1.5" p="3" q="2" radius-tubular="0.2" position="-0.5 1.5 -5"></a-torus-knot>
+        <!-- Жовті тори (переплетені) -->
+        <a-torus position="0 1.5 -5" color="yellow" radius="1" radius-tubular="0.2" rotation="0 0 90"></a-torus>
+        <a-torus position="0 1.5 -5" color="yellow" radius="1" radius-tubular="0.2" rotation="90 0 0"></a-torus>
         
         <!-- Фіолетова площина -->
         <a-plane width="9" height="9" rotation="-55 0 0" position="2 -2 -3" color="purple"></a-plane>
         
         <!-- Жовтий циліндр -->
-        <a-cylinder color="yellow" height="2" radius="0.05" position="0 -0.5 -5"></a-cylinder>
+        <a-cylinder color="yellow" height="2" radius="0.05" position="0.5 -0.5 -5"></a-cylinder>
         
         <!-- Синій циліндр -->
-        <a-cylinder color="blue" height="2" radius="0.05" position="-1 -0.5 -5"></a-cylinder>
+        <a-cylinder color="blue" height="2" radius="0.05" position="-0.5 -0.5 -5"></a-cylinder>
         
         <!-- Біла площина для тексту -->
-        <a-plane width="9" height="2" position="3 1.5 -6" color="white"></a-plane>
+        <a-plane width="6" height="1.5" position="3 1.5 -5" color="white"></a-plane>
         
         <!-- Текст -->
-        <a-text value="Welcome to VR!" color="black" width="10" position="3 1.5 -5.9" align="center" scale="1.5 1.5 1.5"></a-text>
+        <a-text value="Welcome to browser's VR!" color="black" width="6" position="3 1.5 -4.9" align="center"></a-text>
     </a-scene>
 </body>
 </html>
